@@ -1,0 +1,15 @@
+Package: truestream
+Version: 0.0.1
+Architecture: amd64
+Maintainer: OnlyXianzo <184820152+OnlyXianzo@users.noreply.github.com>
+Depends: libgtk-3-0, python3, ffmpeg, aria2
+Filename: repo/pool/truestream_0.0.1_amd64.deb
+Size: 18462750
+MD5sum: 5747444f68dd031949c1a48e20743686
+SHA1: 01c505465a5a89e9b0c8c0c2a8d8b3e62661257f
+SHA256: 965d324a4d128f9e1205b9ffd363ed395eecb166c19066271c367bb00f09de8d
+Section: video
+Priority: optional
+Description: Fast, beautiful, privacy-first media downloader
+ Download from 1,000+ platforms with Flutter UI and yt-dlp Python engine.
+
