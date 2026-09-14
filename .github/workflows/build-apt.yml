@@ -1,6 +1,6 @@
 name: Build APT Repository
 
-# Rebuilds the signed APT index from TrueStream release .debs and publishes
+# Rebuilds the signed APT index from Grablytic release .debs and publishes
 # to GitHub Pages. Suite: stable, components: main, arches: amd64/arm64.
 # Secrets: APT_GPG_PRIVATE (base64 armored signing key, no passphrase).
 
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'TrueStream release tag (e.g. v0.0.1)'
+        description: 'Grablytic release tag (e.g. v0.0.1)'
         required: true
         default: 'v0.0.1'
   schedule:
@@ -33,7 +33,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p repo/pool
-          gh release download "$TAG" --repo OnlyXianzo/TrueStream --pattern "*.deb" --dir repo/pool/ --clobber
+          gh release download "$TAG" --repo OnlyXianzo/Grablytic --pattern "*.deb" --dir repo/pool/ --clobber
           ls -la repo/pool/
 
       - name: Build Packages indexes
@@ -53,17 +53,17 @@ jobs:
           mkdir -p "$GNUPGHOME" && chmod 700 "$GNUPGHOME"
           echo "$APT_GPG_PRIVATE_B64" | base64 -d | gpg --batch --import
           cat > "$RUNNER_TEMP/apt-release.conf" <<'EOF'
-          APT::FTPArchive::Release::Origin "TrueStream";
-          APT::FTPArchive::Release::Label "TrueStream";
+          APT::FTPArchive::Release::Origin "Grablytic";
+          APT::FTPArchive::Release::Label "Grablytic";
           APT::FTPArchive::Release::Suite "stable";
           APT::FTPArchive::Release::Codename "stable";
           APT::FTPArchive::Release::Architectures "amd64 arm64";
           APT::FTPArchive::Release::Components "main";
-          APT::FTPArchive::Release::Description "TrueStream official APT repository";
+          APT::FTPArchive::Release::Description "Grablytic official APT repository";
           EOF
           apt-ftparchive -c "$RUNNER_TEMP/apt-release.conf" release repo/dists/stable > repo/dists/stable/Release
           gpg --batch --yes --clearsign -o repo/dists/stable/InRelease repo/dists/stable/Release
-          cp truestream.asc repo/truestream.asc
+          cp grablytic.asc repo/grablytic.asc
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
