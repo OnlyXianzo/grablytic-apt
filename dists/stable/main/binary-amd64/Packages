@@ -1,13 +1,15 @@
-Package: truestream
-Version: 0.0.1
+Package: grablytic
+Version: 0.0.2
 Architecture: amd64
 Maintainer: OnlyXianzo <184820152+OnlyXianzo@users.noreply.github.com>
 Depends: libgtk-3-0, python3, ffmpeg, aria2
-Filename: repo/pool/truestream_0.0.1_amd64.deb
-Size: 18462750
-MD5sum: 5747444f68dd031949c1a48e20743686
-SHA1: 01c505465a5a89e9b0c8c0c2a8d8b3e62661257f
-SHA256: 965d324a4d128f9e1205b9ffd363ed395eecb166c19066271c367bb00f09de8d
+Conflicts: truestream
+Replaces: truestream
+Filename: repo/pool/grablytic_0.0.2_amd64.deb
+Size: 18559784
+MD5sum: 2cc8f6eca8ee07552e0b4706aa4bc62e
+SHA1: b8f3ed7d3f77d69aaa4d894b7f5a96bf35f53ccc
+SHA256: 9ece3617533b7f96404735b0c460f24c6b52b0c082b9d2246ce6675d702e49c5
 Section: video
 Priority: optional
 Description: Fast, beautiful, privacy-first media downloader
