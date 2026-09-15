@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'Grablytic release tag (e.g. v0.0.1)'
+        description: 'Grablytic release tag (e.g. v0.0.2)'
         required: true
-        default: 'v0.0.1'
+        default: 'v0.0.2'
   schedule:
     - cron: '0 7 * * 0'
 
@@ -20,7 +20,7 @@ jobs:
     permissions:
       contents: write
     env:
-      TAG: ${{ github.event.inputs.tag || 'v0.0.1' }}
+      TAG: ${{ github.event.inputs.tag || 'v0.0.2' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
