@@ -4,39 +4,39 @@ Hash: SHA512
 Architectures: amd64 arm64
 Codename: stable
 Components: main
-Date: Tue, 15 Sep 2026 07:00:48 +0000
+Date: Sun, 20 Sep 2026 12:10:11 +0000
 Description: Grablytic official APT repository
 Label: Grablytic
 Origin: Grablytic
 Suite: stable
 MD5Sum:
- 2786db99eb33e7bc8f607a4fb25d0dde              195 Release
+ bc3d6ecfe6923f3b04da8b248715b3a4              195 Release
  74045a164b5bad87b08da69046421379              604 main/binary-amd64/Packages
- 21bf98d0b68533719e037225f9e7c70a              459 main/binary-amd64/Packages.gz
+ f35a7a1da2872a2c8416063111d93d6f              459 main/binary-amd64/Packages.gz
  f3e90e1be69103ae6ab73cba288f3a0d              604 main/binary-arm64/Packages
- 81a06f08d6c7ebba4a0ba6ab5b809105              460 main/binary-arm64/Packages.gz
+ f87fc674075a9b3658213785ed9467ce              460 main/binary-arm64/Packages.gz
 SHA1:
- b01fc0e1ef22d48bc532f705fe058170f7cfe703              195 Release
+ fee2939ec53449c3cd49d9b71bfd79fc40d0aa63              195 Release
  dae88de70e457e4fe69654f40428af6ba7d4273c              604 main/binary-amd64/Packages
- 6c81984bc04b9fd12187d8004c494238fdcd2c15              459 main/binary-amd64/Packages.gz
+ 8c101d00b44c7c15d4532564eedfa40486b910c7              459 main/binary-amd64/Packages.gz
  79a23e284e1379dfbbbd8fe11b7cba05ca336480              604 main/binary-arm64/Packages
- 69a75a01b4ee49fb4426461cff9e79b5f960a7f1              460 main/binary-arm64/Packages.gz
+ 886eb5591848c7fc9ae2f658c19ccbccdb70659e              460 main/binary-arm64/Packages.gz
 SHA256:
- 1a93ef920ef1972aca56dc0f51a5a86f4270d4b4c262661c749faf22af2340c6              195 Release
+ aab07f95715aef9adb2d0e0360224690bf5a7f4550a777a07e0d6a1687077d81              195 Release
  8c45cef5b40ea39b7e45a58ec5f91ce633f767190c6be1d88dcf640fd11285db              604 main/binary-amd64/Packages
- 7621d63cc7a44d6b41dcb7106d2f13ce2f2399ee877004ce5cc9a32cd77b7498              459 main/binary-amd64/Packages.gz
+ eb1fc643254f3fe8c5543e6ef1e300dca84d66e6ccd16baa81389dff29e87d76              459 main/binary-amd64/Packages.gz
  d3407a412d6f842717c485e3f3744cf365f69a4bb423300f9433eb953bf37381              604 main/binary-arm64/Packages
- 38f4bfc36990e88850862e1e500d153938ac0373c8830c5e6dc765f1d2e230c6              460 main/binary-arm64/Packages.gz
+ e7f172059215b3f2fe7f74c54ba1bc1a6793e17bb695f6193cd0b64253da2fef              460 main/binary-arm64/Packages.gz
 SHA512:
- 7bd7996f01a5d440c4e454e68267a54cacc127cbafeac28f11cc8138f65cee189d056c7d72bbaa277189e723a21fd0077571ba92c29913969fc03f4a864bf065              195 Release
+ 76b7785239ff0d66ddcdc2bd771db7042432d3a29f1cd53bdaff548b9a865c37e111f68382eeb90948152f88840daef56b3eed00b53ab0eb5f5ed5367f66c91d              195 Release
  62fe985d620da8b901a55d3601b9642d06fe0ebdc2676d7d452f6f181824af56dde6aa8b8e8132dff1e149d079e3e68f7cda6a14b20b0d8d4fc398bc5ed520d5              604 main/binary-amd64/Packages
- 260d281855c3fb1ce40185c59d02844d3a35180c0e9b43d6b35ffd219dd1458fa7778abd55d029deaa605738be2a9084a454d50c81d00812186e000869faeb87              459 main/binary-amd64/Packages.gz
+ 30b3f5d42ddf88341e1622cfea354630dbeaf33356284f2291b2e698e696b09fd9044ce699f4f158c9f5575fd4f68b139a12e22afab1930e373e420771851d52              459 main/binary-amd64/Packages.gz
  ef3eedd50cb01b936d284fa5e5243a9a243c5c936be3fd53ae0ede479eb933945b2a8386da862192800e2933342b22c795ab686daf5464342aa3b559984f09e5              604 main/binary-arm64/Packages
- 047e58bf82244998d3272ac6a41f65b4aa991cdf54fe3109e91c0effc32c90e596099c4fd0e4a265b0773e8c96e3a39753c682f0de4186506c56063b4593482b              460 main/binary-arm64/Packages.gz
+ 4d60aff4eab738094285070de4ec28f463df0e48e1bc6d289874e0d31cbe57180aeac58fbcaee63726689ab023b3fe9fadf5a4c555011e781fadfb6e8439ff4c              460 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQokb5GNe5lDqlH92vjvr2aAvlgSgUCaqjtIAAKCRDjvr2aAvlg
-Suh2APwOrrzqG/SWJBedOLsJeKlmgyXgEJZ/9CW+X7eGdI7eTQD/XdIwIiJ+UZN+
-BCcNmE5Hjru9xT9Kq+61+1Zbq1j+sQ8=
-=i97r
+iHUEARYKAB0WIQQokb5GNe5lDqlH92vjvr2aAvlgSgUCaq/NIwAKCRDjvr2aAvlg
+St45AQCsvEiz9uu03f4hw2bcEguOfsYhGPuGyxzrEKhVlwHB5wD/Uq4AfwJ8gceB
+9qzoYBI9zqHqu40wPc9SfX9aNywd6wc=
+=6Nb+
 -----END PGP SIGNATURE-----
