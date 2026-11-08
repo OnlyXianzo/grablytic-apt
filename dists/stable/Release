@@ -1,32 +1,32 @@
 Architectures: amd64 arm64
 Codename: stable
 Components: main
-Date: Sun, 01 Nov 2026 14:10:34 +0000
+Date: Sun, 08 Nov 2026 14:11:00 +0000
 Description: Grablytic official APT repository
 Label: Grablytic
 Origin: Grablytic
 Suite: stable
 MD5Sum:
- 3ec6f3280ed695aa04c0f86c4224faca              195 Release
+ 3544a56e34e614c5ff6acee8b08ad429              195 Release
  74045a164b5bad87b08da69046421379              604 main/binary-amd64/Packages
- 00d5b8d23f5fbfc925f7f3cace441af6              459 main/binary-amd64/Packages.gz
+ bdd661c22368101ec9f67762cf2fb2e8              459 main/binary-amd64/Packages.gz
  f3e90e1be69103ae6ab73cba288f3a0d              604 main/binary-arm64/Packages
- 38fd829a72e1983086db4fb492ded76a              460 main/binary-arm64/Packages.gz
+ e8fed7fada704d5a63c546122e68ef56              460 main/binary-arm64/Packages.gz
 SHA1:
- a026dcd1fd102e09977b9b0a14f580b6e756c2ce              195 Release
+ 299b9515abae1a32b431d567ed5f37fc48079e20              195 Release
  dae88de70e457e4fe69654f40428af6ba7d4273c              604 main/binary-amd64/Packages
- 0395c7731342ccf9a5995001a16b48e6de03e0ee              459 main/binary-amd64/Packages.gz
+ aab251e4cf25d9c67197c45edcd65fb6b0cf5f18              459 main/binary-amd64/Packages.gz
  79a23e284e1379dfbbbd8fe11b7cba05ca336480              604 main/binary-arm64/Packages
- 979ee5b2f7400dd1c468f8a8ec83e66239f9d539              460 main/binary-arm64/Packages.gz
+ b7a1b8a66d624cf9522816b60472523ab9492585              460 main/binary-arm64/Packages.gz
 SHA256:
- 1fddfd9132be4eb844cfc94ff33af5d7d18ab131f5360bf58f4be1fcd18d2722              195 Release
+ 49381f797b18935e3a88b037217b0b3031ce423119c56e1063e60c68005520b0              195 Release
  8c45cef5b40ea39b7e45a58ec5f91ce633f767190c6be1d88dcf640fd11285db              604 main/binary-amd64/Packages
- 0a3f6c46e02866ea6ac8ef2bb6f7fddcd80b5efe4206b1e2bc1f3a4dbe01d674              459 main/binary-amd64/Packages.gz
+ 8e0d510f4c1b0c142634d3c35c249d4d48321f537635c73d70d2c2f6cb0b1608              459 main/binary-amd64/Packages.gz
  d3407a412d6f842717c485e3f3744cf365f69a4bb423300f9433eb953bf37381              604 main/binary-arm64/Packages
- fd7fd44dbc1daf953cad711abdbc628475a6e116db21f9557ff06ef570ec1e5f              460 main/binary-arm64/Packages.gz
+ e5ca27ac98dd8909a00994bd73bf3f6b1c6462c1efe1c7e9cc5a2a004d5705f3              460 main/binary-arm64/Packages.gz
 SHA512:
- 53bf6ed9dc7c1824510df867b59edab9878f962060e8610dcb55736b58378c2667ef34da58c6b3fb1130aec040efa1c6660895c5e5d35906e106f3241dd17f6d              195 Release
+ c4b9d519f2319ee8c595d24b67ea84ecbb0a2b1ee1153f279e429855067c329c9ecdb9dea4a284b7e4865886d05a9010055a873e1e8023a0ced6cd50a9a00496              195 Release
  62fe985d620da8b901a55d3601b9642d06fe0ebdc2676d7d452f6f181824af56dde6aa8b8e8132dff1e149d079e3e68f7cda6a14b20b0d8d4fc398bc5ed520d5              604 main/binary-amd64/Packages
- 5c68af91ad937000bbeffece1d20312fd013b9a558e00ebc39f70b6538a574c712e847c253dea0af9cff7835e00aef57d09e697b571f5b5825b7e6ab744c632d              459 main/binary-amd64/Packages.gz
+ 9d8c640507ff0bb2f2b5f2c8e8a6d3ea50fbbc1fe654b4ea7a488270113e3a68b639c7cb0008f678c9da414d50f18410d2a593cf7bba60e8e5c64bf9cb301c4f              459 main/binary-amd64/Packages.gz
  ef3eedd50cb01b936d284fa5e5243a9a243c5c936be3fd53ae0ede479eb933945b2a8386da862192800e2933342b22c795ab686daf5464342aa3b559984f09e5              604 main/binary-arm64/Packages
- 01a5c8b2d288cf34e417f560370053f8c6a71cc520f6f9aca1ddb692ed45b22dd09482aa52de4793d5e4762a65ec4bd9261df13c7d31f8e7086d97e35e50aa49              460 main/binary-arm64/Packages.gz
+ 28a84466ef983ab04a3aa434c803ac320ba0aa56b788446de45e856adbf115ff22a02e3f5aeb89e27a8974cb03add51d16ba611bfb44451a760f08a4670356f6              460 main/binary-arm64/Packages.gz
